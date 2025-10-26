@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    /* Use flexbox to lay out the buttons in a row */
+    display: flex;
+    
+    /* Add padding to match the image's spacing from the edge */
+    padding: 10px; 
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fff; /* Explicitly set white background */
+}
+
+/* Common styles for all buttons */
+.btn {
+    padding: 8px 16px; /* Vertical and horizontal padding */
+    margin: 8px;       /* Space between buttons */
+    border-width: 2px; /* Border thickness */
+    border-style: solid;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;   /* Show a hand cursor on hover */
+    
+    /* Default transparent background */
+    background-color: transparent; 
+}
+
+/* --- Individual Button Styles --- */
+
+/* Button 1: Blue */
+.btn-1 {
+    border-color: blue;
+    color: blue;
+}
+
+/* Button 2: Red */
+.btn-2 {
+    border-color: red;
+    color: red;
+}
+
+/* Button 3: Black with Green border */
+.btn-3 {
+    background-color: black;
+    border-color: #00c000; /* A bright green */
+    color: rgb(1, 114, 56);
+}
+
+/* Button 4: Dark Red with Yellow text */
+.btn-4 {
+    background-color: #a00000; /* Dark red */
+    border-color: #6c0000;    /* Darker border */
+    color: yellow;
+    border-width: 3px; /* This border looks thicker */
+}
+
+/* Button 5: Gold/Yellow */
+.btn-5 {
+    border-color: #d4af37; /* Gold color */
+    color: #d4af37;
+}
+
+/* Button 6: Magenta/Pink */
+.btn-6 {
+    border-color: magenta;
+    color: magenta;
+}
+</style>
+<body>
+
+    <button class="btn btn-1">Button1</button>
+    <button class="btn btn-2">Button1</button>
+    <button class="btn btn-3">Button1</button>
+    <button class="btn btn-4">Button1</button>
+    <button class="btn btn-5">Button1</button>
+    <button class="btn btn-6">Button1</button>
+
+</body>
+</html>
